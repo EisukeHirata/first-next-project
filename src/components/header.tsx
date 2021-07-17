@@ -22,8 +22,11 @@ export const Header: VFC = () => {
           })}
         </div>
         <div className="ml-auto">
-          <a className="inline-block py-3 px-4 mr-2 text-xs font-semibold leading-none text-blue-600 hover:text-blue-700 rounded border border-blue-200 hover:border-blue-300">
-            Log In
+          <a
+            className="inline-block py-3 px-4 mr-2 text-xs font-semibold leading-none text-blue-600 hover:text-blue-700 rounded border border-blue-200 hover:border-blue-300"
+            href="/signin"
+          >
+            Sign In
           </a>
           <a className="inline-block py-3 px-4 text-xs font-semibold leading-none text-white bg-blue-600 hover:bg-blue-700 rounded">
             Sign Up
