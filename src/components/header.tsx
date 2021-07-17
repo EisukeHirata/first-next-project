@@ -9,7 +9,7 @@ const items = [
 
 export const Header: VFC = () => {
   return (
-    <header className="h-30 item-center">
+    <header className="items-center h-40">
       <a className="text-3xl">Tech House Community</a>
       <nav style={{ float: "right" }}>
         {items.map(({ href, label }) => {
